@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/8762d05e41.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>4K Television Ratings</title>
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="form-group">
+      <select id="product-select" class="form-control custom-select">
+        <option value="0" disabled selected>Select Product</option>
+        <option value="sony">Sony 4K TV</option>
+        <option value="samsung">Samsung 4K TV</option>
+        <option value="vizio">Vizio 4K TV</option>
+        <option value="panasonic">Panasonic 4K TV</option>
+        <option value="philips">Philips 4K TV</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <input type="number" id="rating-control" class="form-control" step="0.1" max="5" placeholder="Rate 1 - 5" disabled>
+    </div>
+
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>4K Television</th>
+          <th>Rating</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="sony">
+          <td>Sony 4K TV</td>
+          <td>
+            <div class="stars-outer">
+              <div class="stars-inner"></div>
+            </div>
+            <span class="number-rating"></span>
+          </td>
+        </tr>
+        <tr class="samsung">
+          <td>Samsung 4K TV</td>
+          <td>
+            <div class="stars-outer">
+              <div class="stars-inner"></div>
+            </div>
+            <span class="number-rating"></span>
+          </td>
+        </tr>
+        <tr class="vizio">
+          <td>Vizio 4K TV</td>
+          <td>
+            <div class="stars-outer">
+              <div class="stars-inner"></div>
+            </div>
+            <span class="number-rating"></span>
+          </td>
+        </tr>
+        <tr class="panasonic">
+          <td>Panasonic 4K TV</td>
+          <td>
+            <div class="stars-outer">
+              <div class="stars-inner"></div>
+            </div>
+            <span class="number-rating"></span>
+          </td>
+        </tr>
+        <tr class="philips">
+          <td>Philips 4K TV</td>
+          <td>
+            <div class="stars-outer">
+              <div class="stars-inner"></div>
+            </div>
+            <span class="number-rating"></span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+Traversy MediaのStar Ratings With JavaScript & Font Awesome
+https://youtu.be/u3rylF3y3og?list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX
+
+//  for in
+const オブジェクト名 = {
+  プロパティ名: 値;
+  ...
+}
+for(let i in オブジェクト名) {
+  console.log(i + ':' + オブジェクト名[i])
+}
+>> プロパティ名: 値
+>> ...
+配列の場合はプロパティ名の代わりにインデックス
+
+
+//  math.round()
+引数を四捨五入
+
+css before
